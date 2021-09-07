@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Profile(){
+function Profile(props){
   return (
     <React.Fragment>
       <h1>Profile Name</h1>
@@ -10,7 +10,6 @@ function Profile(){
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id dapibus dolor. Nulla facilisi. Sed.
       </p>
       <hr/>
-      
     </React.Fragment>
   );
 }
